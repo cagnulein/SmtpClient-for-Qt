@@ -126,7 +126,7 @@ protected:
 
     /* [4] Protected members */
 
-    QTcpSocket *socket;
+    QTcpSocket *socket = nullptr;
 
     QString host;
     int port;
