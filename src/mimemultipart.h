@@ -41,7 +41,7 @@ public:
     /* [0] --- */
 
     /* [1] Constructors and Destructors */
-    MimeMultiPart(const MultiPartType type = Related);
+    MimeMultiPart(const MultiPartType type = Mixed);
 
     ~MimeMultiPart();
 
