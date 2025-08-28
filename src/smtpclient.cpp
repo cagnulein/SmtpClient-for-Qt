@@ -18,6 +18,7 @@
 
 #include "smtpclient.h"
 
+#include <QDebug>
 #include <QFileInfo>
 #include <QByteArray>
 #include <QTimer>
